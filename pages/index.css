@@ -203,7 +203,7 @@
   max-width: 385px;
 }
 
-.form {
+.form__main-container {
   border: none;
   margin: auto;
   /* bloco do formulário */
