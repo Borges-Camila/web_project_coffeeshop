@@ -184,6 +184,7 @@
   background-repeat: no-repeat;
   position: relative;
   padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .reservation__title {
@@ -199,4 +200,91 @@
 .reservation__form {
   margin: 80px auto 120px;
   max-width: 385px;
+}
+
+.form__input-container {
+  border: none;
+  margin: auto;
+  /* bloco do formulário */
+}
+
+/* Nome de cada caixa */
+
+.form__label {
+  display: block;
+  font-family: inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.form__item {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 60px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+  /* Caixa do formulário*/
+}
+
+.form__item::placeholder {
+  font-family: inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  color: #838383;
+}
+
+.form__terms {
+  border: 0;
+  margin: 0;
+  font-size: 0;
+  padding-top: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+.form__terms .form__label_direction_right {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin-left: 12px;
+  display: inline;
+}
+
+.form__item_el_terms-agreement {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: 0;
+  min-height: 0;
+}
+
+.form__button {
+  border-radius: 4px;
+  color: white;
+  border: 0;
+  cursor: pointer;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  max-width: 385px;
+  height: 60px;
+  width: 100%;
+}
+
+.form__button:hover {
+  opacity: 0.7;
+}
+
+.form__button[type="submit"] {
+  background-color: #2f80ed;
 }

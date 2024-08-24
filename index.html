@@ -138,29 +138,31 @@
                 name="email"
                 placeholder="email@email.com"
               />
+              <button type="submit" class="form__button">
+                Reservar uma mesa
+              </button>
             </fieldset>
-            <button type="submit" class="form__button">
-              Reservar uma mesa
-            </button>
-            <label
-              class="form__label form__label_direction_right"
-              for="Terms-agreement"
-            >
-              <input
-                type="checkbox"
-                name="Terms-agreement"
-                id="Terms-agreement"
-                class="form__item form__item_el_terms-agreement"
-                value="Terms-agreement"
-                checked
-              />
-              <span
-                class="form__pseudo-item form__pseudo-item_type_checkbox"
-              ></span>
-              <span class="form__label-text"
-                >Eu concordo com os termos de uso</span
+            <fieldset class="form__terms">
+              <label
+                class="form__label form__label_direction_right"
+                for="Terms-agreement"
               >
-            </label>
+                <input
+                  type="checkbox"
+                  name="Terms-agreement"
+                  id="Terms-agreement"
+                  class="form__item form__item_el_terms-agreement"
+                  value="Terms-agreement"
+                  checked
+                />
+                <span
+                  class="form__pseudo-item form__pseudo-item_type_checkbox"
+                ></span>
+                <span class="form__label-text"
+                  >Eu concordo com os termos de uso</span
+                >
+              </label>
+            </fieldset>
           </div>
         </section>
       </main>
