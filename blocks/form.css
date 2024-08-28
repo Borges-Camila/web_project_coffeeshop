@@ -1,10 +1,7 @@
 .form__fieldset {
   border: none;
   margin: auto;
-  /* bloco do formulário */
 }
-
-/* Nome de cada caixa */
 
 .form__label {
   display: block;
@@ -21,7 +18,6 @@
   min-height: 60px;
   margin-top: 8px;
   margin-bottom: 32px;
-  /* Caixa do formulário*/
 }
 
 .form__item::placeholder {
